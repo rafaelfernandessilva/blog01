@@ -1,3 +1,3 @@
 [submodule "path_to_submodule"] 
   path = themes/hugo-theme-stack 
-  url = git://url-of-source/
+  url = git://https://github.com/rafaelfernandessilva/servidorgerenciado.git/
