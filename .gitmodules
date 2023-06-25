@@ -1,3 +1,6 @@
-[submodule "path_to_submodule"] 
+[submodule "hugo-theme-stack"]
   path = themes/hugo-theme-stack 
-  url = git://https://github.com/rafaelfernandessilva/servidorgerenciado.git/
+  url = https://github.com/CaiJimmy/hugo-theme-stack
+[submodule "themes/hugo-book"]
+	path = themes/hugo-book
+	url = https://github.com/alex-shpak/hugo-book
