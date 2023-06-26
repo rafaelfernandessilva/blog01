@@ -16,10 +16,12 @@ menu:
     - identifier: "lpi"
       name: "LPI"
       url: "/lpi/"
+    
     - identifier:  "post"
       name: "POST"
       url: "/posts/" # user is taken to this url
+      
     - identifier: "about" # different for all menu entries, useful especially when menu name coincides
       name: "About us" # shown on website/blog
       url: "/about/" # user is taken to this url when user clicks on menu item
-      weight: 10 # used to sort menu items by weight
+      
