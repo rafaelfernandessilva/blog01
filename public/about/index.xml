@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Example Site</title>
+    <link>https://servidorgerenciado.com.br/about/</link>
+    <description>Recent content in Abouts on Example Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Jun 2023 20:51:57 +0000</lastBuildDate><atom:link href="https://servidorgerenciado.com.br/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Default</title>
+      <link>https://servidorgerenciado.com.br/about/default/</link>
+      <pubDate>Mon, 26 Jun 2023 20:51:57 +0000</pubDate>
+      
+      <guid>https://servidorgerenciado.com.br/about/default/</guid>
+      <description>test about us</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lpis on Example Site</title>
+    <link>https://servidorgerenciado.com.br/lpi/</link>
+    <description>Recent content in Lpis on Example Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Jun 2023 20:51:37 +0000</lastBuildDate><atom:link href="https://servidorgerenciado.com.br/lpi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>104.7 Find System Files and Place Files in the Correct Location</title>
+      <link>https://servidorgerenciado.com.br/lpi/101-500/104.7-find-system-files-and-place-files-in-the-correct-location/</link>
+      <pubDate>Mon, 26 Jun 2023 20:51:37 +0000</pubDate>
+      
+      <guid>https://servidorgerenciado.com.br/lpi/101-500/104.7-find-system-files-and-place-files-in-the-correct-location/</guid>
+      <description>104.7 Find system files and place files in the correct location Peso: 2
+Área de conhecimento do tópico:
+localização de arquivos Um pouco sobre FHS Diretorios obrigatoriamente em / (NÃO PODEM SER MONTADO FORA DESSE DIRETÓRIO)
+1 2 3 4 5 6 7 8 9 10 11 12 Diretório	finalidade	exemplo	/bin	Programas Criticos/todos usuarios	cp,ls,kill,rm /sbin	Programas criticos/SysAdmin	fdisk,fsck, mkfs /etc Arquivo de configuração passwd, inittab /mnt e /media Ponto de montagem de media	/mnt/dvd /proc /sys Informações de Hardware e process	interrupts, cpu /dev Dispositivos e Arquivos Especiais	sda,sr0,tty find = É um comando muito robusto de procura de arquivos.</description>
+    </item>
+    
+    <item>
+      <title>102.2 Install a Boot Manager</title>
+      <link>https://servidorgerenciado.com.br/lpi/101-500/102.2-install-a-boot-manager/</link>
+      <pubDate>Sun, 25 Jun 2023 21:32:52 +0000</pubDate>
+      
+      <guid>https://servidorgerenciado.com.br/lpi/101-500/102.2-install-a-boot-manager/</guid>
+      <description>102.2 Install a boot manager Peso: 2
+menu.lst = Arquivo de configuração do grub legacy
+grub.cfg = Arquivo que contém as configurações do grub 2 localizado no /etc/grub/grub.cfg
+/etc/default/grub = Arquivo para realizar as configurações personalizadas do grub, após editar esse arquivo deve executar o comando grub-mkconfig ou update-grub
+grub-install = Comando utilizado para instalar o grub no local informado. Esse comadno é utilizado tanto para o Grub Lagacy como para o Grub 2</description>
+    </item>
+    
+    <item>
+      <title>102.1 Design Hard Disk Layout</title>
+      <link>https://servidorgerenciado.com.br/lpi/101-500/102.1-design-hard-disk-layout/</link>
+      <pubDate>Sun, 25 Jun 2023 21:25:26 +0000</pubDate>
+      
+      <guid>https://servidorgerenciado.com.br/lpi/101-500/102.1-design-hard-disk-layout/</guid>
+      <description>102.1 Design hard disk layout Peso: 2
+Área de conhecimento nesse topico:
+Partições de disco Designer de partições do sistema / (root) filesystem = É o diretorio raiz do sistema,
+/var filesystem = Contém arquivos de dados variaveis. é um diretorio no qual no qual geralmente contém arquivos com grande alteração de tamanho, como arquivos de logs, arquivos de cache, arquivos de backup etc.
+/home filesystem = Ponto de montagem /home, e onde por padrão o linux ira criar &amp;ldquo;ambiente&amp;rdquo; de cada usuario criado.</description>
+    </item>
+    
+    <item>
+      <title>101.3 Change Runlevels and Boot Targets and Shutdown or Reboot System</title>
+      <link>https://servidorgerenciado.com.br/lpi/101-500/101.3-change-runlevels-and-boot-targets-and-shutdown-or-reboot-system/</link>
+      <pubDate>Sun, 25 Jun 2023 21:12:04 +0000</pubDate>
+      
+      <guid>https://servidorgerenciado.com.br/lpi/101-500/101.3-change-runlevels-and-boot-targets-and-shutdown-or-reboot-system/</guid>
+      <description>101.3 Change runlevels / boot targets and shutdown or reboot system Peso: 3
+Áreas de conhecimento nesse tópico:
+Gerenciar execução do SysVinit Alterar para modo single user Desligamento Reinicialização Alerta para usuarios logados /etc/inittab =
+shutdown = O shutdown é utilizado tanto para desligamento da maquina como reinicialização. Comandos comuns para shutdown:
+Apenas o comando shutdown por padrão desliga a máquina após 1min do comando.
+1 2 root@therafs:~# shutdown Shutdown scheduled for Wed 2021-09-22 14:19:34 UTC, use &amp;#39;shutdown -c&amp;#39; to cancel.</description>
+    </item>
+    
+    <item>
+      <title>101.2 Boot the System</title>
+      <link>https://servidorgerenciado.com.br/lpi/101-500/101.2-boot-the-system/</link>
+      <pubDate>Sun, 25 Jun 2023 20:21:07 +0000</pubDate>
+      
+      <guid>https://servidorgerenciado.com.br/lpi/101-500/101.2-boot-the-system/</guid>
+      <description>101.2 Boot the system Peso: 3
+Áreas de conhecimento desse tópico:
+Comandos para carregar o boot e opção de kernel, na sua inicialização Sequência de inicialização de BIOS / UEFI SysVinit e Systemd Upstart Eventos de inicialização e arquivos de logs Partições MBR = Partições MBR podem ter no maximo 4 partições, 4 primarias ou 3 primarias + 1 extendida, e então criando outras partições logicas &amp;ldquo;dentro&amp;rdquo; da partição extendida criada.</description>
+    </item>
+    
+    <item>
+      <title>101.1 Determine and configure hardware settings</title>
+      <link>https://servidorgerenciado.com.br/lpi/101-500/101.1-determine-and-configure-hardware-settings/</link>
+      <pubDate>Sun, 25 Jun 2023 00:40:19 +0000</pubDate>
+      
+      <guid>https://servidorgerenciado.com.br/lpi/101-500/101.1-determine-and-configure-hardware-settings/</guid>
+      <description>101.1 Determine and configure hardware settings Peso: 2
+Nesse tópico as principais área de conhecimentos serão:
+Ativar e desativar perifericos integrados. Diferenciar os tipos de dispositivos de armazenamento em massa Utilitarios para listar informações de hardware(Ex:. lsusb, lspci, etc.) Utilitarios para dispositivos USB Conceitos de sysfs, udev e dbus. /sys/ = Contém informações sobre os dispositivos de hardware
+sysfs = É a partição dinâmica que contém o filysistem do sys</description>
+    </item>
+    
+  </channel>
+</rss>
