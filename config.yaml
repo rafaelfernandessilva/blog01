@@ -246,4 +246,5 @@ markup:
         tabWidth: 4
 
 # Suprimir avisos específicos
-ignoreLogs = ['warning-goldmark-raw-html']
+ignoreLogs:
+    - warning-goldmark-raw-html
