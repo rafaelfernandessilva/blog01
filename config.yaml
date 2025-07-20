@@ -3,7 +3,8 @@ languageCode: en-us
 theme: hugo-theme-stack
 pagination:
   pagerSize: 10
-title: Apenas um lugar que passo o tempo as vezes.
+title: "Rafael Fernandes - Blog"
+description: "Blog pessoal sobre DevOps, Linux, LPI e tecnologia"
 
 languages:
     en:
@@ -49,12 +50,14 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        title: "Rafael Fernandes"
+        subtitle: "DevOps Engineer & Linux Enthusiast"
         avatar:
             enabled: true
             local: true
             src: img/avatar.png
+            width: 120
+            height: 120
 
     article:
         math: false
