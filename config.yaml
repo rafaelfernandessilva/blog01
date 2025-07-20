@@ -1,4 +1,4 @@
-baseurl: https://servidorgerenciado.com.br
+baseurl: https://rafaelfernandessilva.github.io/blog01/
 languageCode: en-us
 theme: hugo-theme-stack
 pagination:
@@ -56,8 +56,6 @@ params:
             enabled: true
             local: true
             src: img/avatar.png
-            width: 120
-            height: 120
 
     article:
         math: false
