@@ -29,11 +29,13 @@ hasCJKLanguage: false
 
 permalinks:
     post: /p/:slug/
+    lpi: /lpi/:slug/
     page: /:slug/
 
 params:
     mainSections:
         - post
+        - lpi
     featuredImageField: image
     rssFullContent: true
     favicon:  # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
