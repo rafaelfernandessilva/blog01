@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Teste de Categoria Container",
+    "url": "/posts/teste-container/",
+    "categories": "container",
+    "tags": "docker, kubernetes",
+    "date": "2025-07-19 18:00:00 -0300",
+    "content": "Este é um post de teste para a categoria container. Aqui você pode colocar qualquer conteúdo em Markdown.— title: “Teste de Categoria Container” date: 2025-07-19 21:00:00 +0000 categories: [contain..."
+  }
+  
+]
+
