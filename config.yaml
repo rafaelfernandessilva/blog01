@@ -9,8 +9,8 @@ description: "Blog pessoal sobre DevOps, Linux, LPI e tecnologia"
 languages:
     en:
         languageName: English
-        title: Example Site
-        description: Example description
+        title: "Rafael Fernandes - Blog"
+        description: "Blog pessoal sobre DevOps, Linux, LPI e tecnologia"
         weight: 1
 
 
@@ -55,7 +55,7 @@ params:
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: /img/avatar.png
 
     article:
         math: false
