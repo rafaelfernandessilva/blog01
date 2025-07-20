@@ -1,7 +1,8 @@
 baseurl: https://servidorgerenciado.com.br
 languageCode: en-us
 theme: hugo-theme-stack
-paginate: 10
+pagination:
+  pagerSize: 10
 title: Apenas um lugar que passo o tempo as vezes.
 
 languages:
@@ -230,7 +231,7 @@ markup:
     goldmark:
         renderer:
             ## Set to true if you have HTML content inside Markdown
-            unsafe: false
+            unsafe: true
     tableOfContents:
         endLevel: 4
         ordered: true
@@ -243,3 +244,6 @@ markup:
         lineNos: true
         lineNumbersInTable: true
         tabWidth: 4
+
+# Suprimir avisos específicos
+ignoreLogs = ['warning-goldmark-raw-html']
